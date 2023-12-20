@@ -11,10 +11,8 @@ cd ./my-thesis/client
 yarn && wait
 
 # 
-cp -r ./dist /var/www
+cp -r ./my-thesis/client/dist /var/www
 
-cd /var/www
+rm -r /var/www/html
 
-rm -r ./html
-
-mv ./dist /html
+mv /var/www/dist /var/www/html
