@@ -10,8 +10,10 @@ cd ./my-thesis/client
 # cài thư viện
 yarn && wait
 
-# 
-cp -r ./my-thesis/client/dist /var/www
+#build
+yarn build && wait
+
+cp -r ./dist /var/www
 
 rm -r /var/www/html
 
