@@ -5,7 +5,7 @@ rm -r my-thesis
 git clone git@github.com:duymanh3602/my-thesis.git && wait
 
 # di chuyển đến client
-cd ./my-cd m/client
+cd ./my-thesis/client
 
 # cài thư viện
 yarn && wait
