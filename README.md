@@ -1,2 +1,2 @@
 ### Grant Permissions:
-```chmod u+rwx scripts```
+```chmod -R u+rwx scripts```
